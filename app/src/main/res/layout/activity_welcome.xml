@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="60dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="please choose a hospital"
+            android:id="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kenyatta National Hospital"
+            android:id="@+id/chB1"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moi Refferal Hospital"
+            android:id="@+id/chB2"
+            android:padding="10dp"/>
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machackos Level 5 Hospital"
+            android:id="@+id/chB3"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coast General Hospital"
+            android:id="@+id/chB4"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:id="@+id/btnSubmit"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
