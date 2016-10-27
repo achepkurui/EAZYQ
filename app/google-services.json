@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "875080760480",
+    "firebase_url": "https://eazyq-da7eb.firebaseio.com",
+    "project_id": "eazyq-da7eb",
+    "storage_bucket": "eazyq-da7eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875080760480:android:9d31f6ab285714d2",
+        "android_client_info": {
+          "package_name": "com.nashipaechepkurui.eazyq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875080760480-scp4o84plg06tcobdk54js2klm85kerr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": " AIzaSyAuu5PrB6TQjD9xOsnN8Wr7wgsWC_07kDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
-public class Welcome extends AppCompatActivity {
+public class WelcomeActivity extends AppCompatActivity {
     Button Submit;
     CheckBox chB1;
     CheckBox chB2;
@@ -29,7 +30,7 @@ public class Welcome extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Welcome.this, Kenyatta.class);
+                Intent intent = new Intent(WelcomeActivity.this, Kenyatta.class);
                 startActivity(intent);
             }
 
@@ -38,7 +39,7 @@ public class Welcome extends AppCompatActivity {
         Submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Welcome.this, Moiref.class);
+                Intent intent=new Intent(WelcomeActivity.this, Moiref.class);
                 startActivity(intent);
             }
         });
@@ -46,7 +47,7 @@ public class Welcome extends AppCompatActivity {
         Submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Welcome.this, Machakoslvl5.class);
+                Intent intent=new Intent(WelcomeActivity.this, Machakoslvl5.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +55,7 @@ public class Welcome extends AppCompatActivity {
         Submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Welcome.this, Coastgen.class);
+                Intent intent=new Intent(WelcomeActivity.this, Coastgen.class);
                 startActivity(intent);
             }
         });
@@ -68,32 +69,21 @@ public class Welcome extends AppCompatActivity {
         // Check which checkbox was clicked
         switch(view.getId()) {
             case R.id.chB1:
-                if (checked);
-                    //
-                else
-                    //
-                    break;
+                Toast.makeText(WelcomeActivity.this,
+                        "Checked", Toast.LENGTH_LONG).show();
 
             case R.id.chB2:
-                if (checked);
-                    //
-                else
-                    //
-                    break;
+                Toast.makeText(WelcomeActivity.this,
+                        "Checked", Toast.LENGTH_LONG).show();
 
             case R.id.chB3:
-                if (checked);
-                    //
-                else
-                    //
-                    break;
+                Toast.makeText(WelcomeActivity.this,
+                        "Checked", Toast.LENGTH_LONG).show();
+
 
             case R.id.chB4:
-                if (checked);
-                    //
-                else
-                    //
-                    break;
+                Toast.makeText(WelcomeActivity.this,
+                        "Checked", Toast.LENGTH_LONG).show();
 
         }
     }
